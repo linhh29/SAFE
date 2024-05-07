@@ -11,7 +11,6 @@ import torch.optim as optim
 from sklearn.metrics import precision_score,f1_score,recall_score, roc_auc_score
 from time import time
 from .Classifier import create_cosNorm_model, create_lws_model
-from .decode_geohash import plot
 from .mobilenet import mobilenet
 from sklearn.metrics import confusion_matrix
 from .losses import ContrastiveLoss, triplet_loss, Sim_ContrastiveLoss
