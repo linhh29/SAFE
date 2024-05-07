@@ -1,11 +1,11 @@
-This is the official pytorch implementation of paper "Spatial-aware Semi-supervision for Arable Land Quality Evaluation"
+This is the official pytorch implementation of the paper "Spatial-aware Semi-supervision for Arable Land Quality Evaluation".
 
 
 1. Download the data and put it in the /data/.
 
 2. Revise the config file in ./config.json
 
-3. Train and evaluate the model.
+3. Train and evaluate the model:
    python ./main.py
 
 
