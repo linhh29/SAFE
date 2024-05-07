@@ -11,7 +11,8 @@ This is the official pytorch implementation of the paper "Spatial-aware Semi-sup
    - python split_dataset.py 
 
 4. Train and evaluate the model:
-   - python ./main.py
+   - python main.py
+   
 
 
 
