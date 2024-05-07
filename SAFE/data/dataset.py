@@ -51,7 +51,7 @@ class CategoryDictGenerator:
 
     def build(self, datafile, categorial_features, cutoff=0):
         data = pd.read_csv(datafile)
-        length = 2100
+        length = len(data)
         value = {
             'tchd':0,
             'trzd':1000,
@@ -124,7 +124,7 @@ class ContinuousFeatureGenerator:
 
     def build(self, datafile, continous_features):
         data = pd.read_csv(datafile)
-        length = 2100
+        length = len(data)
         #len(data)
         value = {
             'tchd':0,
