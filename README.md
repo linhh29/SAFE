@@ -1,4 +1,4 @@
-This is the official pytorch implementation of the paper "Spatial-aware Semi-supervision for Arable Land Quality Evaluation".
+This is the official pytorch implementation of the paper "SAFE: A Spatial-aware Framework for Arable Land Quality Evaluation".
 
 
 1. Download the data and put it in the /data/
