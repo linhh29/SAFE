@@ -39,6 +39,6 @@ class Sim_ContrastiveLoss(nn.Module):
         cos = nn.CosineSimilarity(dim=1)
         similarity = cos(output1, output2)
         # print(similarity.shape)
-        loss = torch.mean((1-label) * torch.pow(similarity, 2) +
-                          label * torch.pow(torch.clamp(self.margin - similarity, min=0.0), 2))
+        loss = torch.mean(-label * torch.pow(similarity, 2) +
+                          (1-label) * torch.pow(torch.clamp(similarity - self.margin, min=0.0), 2))
         return loss
